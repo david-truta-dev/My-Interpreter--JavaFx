@@ -1,0 +1,16 @@
+PrgStateId:1
+Stack: int v
+SymTable: {}
+Out: []
+FileTable{}
+Heap:{}
+
+-----------------------------------------------------------------------------------
+PrgStateId:1
+Stack: Ref(int) a; v=10; new(a, 22); fork(wH(a, 30); v=32; print(v); print(rH(a))); print(v); print(rH(a))
+SymTable: {v=0}
+Out: []
+FileTable{}
+Heap:{}
+
+-----------------------------------------------------------------------------------
